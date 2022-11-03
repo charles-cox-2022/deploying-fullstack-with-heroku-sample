@@ -1,0 +1,23 @@
+.scroller {
+    padding: 0px 25px 0px 0px;
+    list-style-type: none;
+    border: solid;
+    border-width: 5px;
+    overflow: scroll;
+    background-color: black;
+    min-height: 200px;
+    max-height: 800px;
+    width: 100%;
+    margin: 0px;
+    color: rgba(79,209,197,.64);
+}
+.scroller::-webkit-scrollbar-track {
+    color: black;
+}
+.scroller::-webkit-scrollbar-corner {
+    color: black;
+}
+.scroller::-webkit-scrollbar {
+    color: rgba(79,209,197,.64);
+    display:none;   
+}
